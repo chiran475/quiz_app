@@ -1267,7 +1267,7 @@ const questions = [
                 explanation: "Nepal's diverse geographical terrain, from mountains to plains, makes last-mile delivery particularly challenging for e-commerce operations."
             },
             {
-                question: "What is 'Hamro Market'?",
+                question: "What is 'Hamro bazar'?",
                 options: [
                     "A grocery delivery app",
                     "A local product marketplace",
@@ -1275,7 +1275,7 @@ const questions = [
                     "A digital payment system"
                 ],
                 correct: 1,
-                explanation: "Hamro Market is a marketplace platform focusing on promoting local Nepali products and sellers."
+                explanation: "Hamro bazar is a marketplace platform focusing on promoting local Nepali products and sellers."
             },
             {
                 question: "Which regulation affects online businesses in Nepal regarding return policies?",
