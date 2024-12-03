@@ -211,7 +211,7 @@ function initializeQuiz() {
     }
 
     // Initialize quiz variables
-    currentQuestions = getRandomQuestions(questions, 10); // Replace with actual question selection logic
+    currentQuestions = getRandomQuestions(questions, 15); // Replace with actual question selection logic
     userAnswers = {};
     currentQuestionIndex = 0;
     timeLeft = 300;
