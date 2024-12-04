@@ -220,6 +220,639 @@ const questions = [
         explanation: "Load balancing distributes workloads across multiple computing resources to optimize resource use and performance."
     },
     {
+        question: "What is a semantic HTML element?",
+        options: [
+        "Any HTML element that looks good",
+        "An element that describes its meaning to both browser and developer",
+        "An element with CSS styling",
+        "An element used only for layout"
+        ],
+        correct: 1,
+        explanation: "Semantic HTML elements clearly describe their purpose in their names, like <article>, <header>, <nav>, making code more meaningful and accessible."
+        },
+        {
+            question: "What is the purpose of the 'viewport' meta tag?",
+            options: [
+            "To add images to a webpage",
+            "To control layout and scaling on mobile devices",
+            "To change text color",
+            "To add animations"
+            ],
+            correct: 1,
+            explanation: "The viewport meta tag helps control how a webpage is displayed on mobile devices by setting the viewport width and initial scale."
+            },
+            {
+                question: "What does CSS stand for?",
+                options: [
+                "Computer Style Sheets",
+                "Creative Style System",
+                "Cascading Style Sheets",
+                "Colorful Style Sheets"
+                ],
+                correct: 2,
+                explanation: "CSS stands for Cascading Style Sheets, which is used to style and format HTML documents."
+                },
+                {
+                    question: "What is the correct CSS syntax for padding on all sides?",
+                    options: [
+                    "padding: 10;",
+                    "padding: 10px 10px 10px 10px;",
+                    "all-padding: 10px;",
+                    "padding-all: 10px;"
+                    ],
+                    correct: 1,
+                    explanation: "Padding can be set using either 'padding: 10px;' for all sides or 'padding: 10px 10px 10px 10px;' for individual sides."
+                    },
+                    
+                    {
+                    question: "How do you make a list display without bullets?",
+                    options: [
+                    "list-style: none;",
+                    "list-type: no-bullet;",
+                    "bullet-style: none;",
+                    "list: no-bullets;"
+                    ],
+                    correct: 0,
+                    explanation: "list-style: none; removes bullets or numbering from lists."
+                    },
+                    {
+                        "question": "Which keyword is used to declare a variable that cannot be reassigned?",
+                        "options": [
+                          "let",
+                          "var",
+                          "const",
+                          "immutable"
+                        ],
+                        "correct": 2,
+                        "explanation": "The 'const' keyword is used to declare variables whose values cannot be reassigned after initialization."
+                      },
+                      {
+                        "question": "Which keyword is used to declare a block-scoped variable that can be reassigned?",
+                        "options": [
+                          "var",
+                          "let",
+                          "constant",
+                          "mutable"
+                        ],
+                        "correct": 1,
+                        "explanation": "The 'let' keyword is used to declare a block-scoped variable that can be reassigned."
+                      },
+                      {
+                        "question": "Which keyword declares a variable that is function-scoped?",
+                        "options": [
+                          "let",
+                          "var",
+                          "const",
+                          "scope"
+                        ],
+                        "correct": 1,
+                        "explanation": "The 'var' keyword is used to declare a variable that is function-scoped, meaning it is available within the function it is declared in."
+                      },
+                      {
+                        "question": "Which of the following variables can be reassigned within the same scope?",
+                        "options": [
+                          "let",
+                          "const",
+                          "var",
+                          "all of the above"
+                        ],
+                        "correct": 3,
+                        "explanation": "Both 'let' and 'var' can be reassigned within the same scope, but 'const' cannot."
+                      },
+                      {
+                        "question": "Which keyword is used to declare a variable with a block scope that cannot be reassigned?",
+                        "options": [
+                          "let",
+                          "var",
+                          "const",
+                          "immutable"
+                        ],
+                        "correct": 2,
+                        "explanation": "The 'const' keyword is used to declare a block-scoped variable that cannot be reassigned after initialization."
+                      },
+                      {
+                        "question": "Which keyword is used to declare a variable with function scope in JavaScript?",
+                        "options": [
+                          "var",
+                          "let",
+                          "const",
+                          "scope"
+                        ],
+                        "correct": 0,
+                        "explanation": "The 'var' keyword is used to declare a function-scoped variable, meaning it is accessible throughout the function where it is declared."
+                      },
+                      {
+                        "question": "What will happen if you try to reassign a value to a variable declared with 'const'?",
+                        "options": [
+                          "The reassignment will succeed.",
+                          "An error will occur.",
+                          "The value will change but the variable name will remain constant.",
+                          "The variable will be automatically redeclared."
+                        ],
+                        "correct": 1,
+                        "explanation": "You cannot reassign a value to a variable declared with 'const'. Doing so will throw an error."
+                      },
+                      {
+                        "question": "Which of the following is true about variables declared with 'let'?",
+                        "options": [
+                          "They are function-scoped.",
+                          "They are block-scoped.",
+                          "They cannot be reassigned.",
+                          "They are hoisted and initialized with 'undefined'."
+                        ],
+                        "correct": 1,
+                        "explanation": "'let' variables are block-scoped, meaning they are only accessible within the block in which they are declared."
+                      },
+                      {
+                        "question": "What is the result of using 'var' in a loop in JavaScript?",
+                        "options": [
+                          "The variable will be scoped to the loop block.",
+                          "The variable will be scoped to the function.",
+                          "The variable will be globally scoped.",
+                          "The variable will not be accessible outside the loop."
+                        ],
+                        "correct": 1,
+                        "explanation": "'var' is function-scoped, so the variable will be accessible anywhere within the function, including outside the loop."
+                      },
+                      {
+                        "question": "Which keyword is used to declare a variable that is accessible globally if declared outside of any function?",
+                        "options": [
+                          "let",
+                          "var",
+                          "const",
+                          "global"
+                        ],
+                        "correct": 1,
+                        "explanation": "Variables declared with 'var' outside of any function are globally scoped, meaning they are accessible anywhere in the program."
+                      },
+                      {
+                        "question": "What is a key difference between 'let' and 'var' in JavaScript?",
+                        "options": [
+                          "'let' is function-scoped, while 'var' is block-scoped.",
+                          "'let' is block-scoped, while 'var' is function-scoped.",
+                          "'let' and 'var' are exactly the same.",
+                          "'let' cannot be used in loops."
+                        ],
+                        "correct": 1,
+                        "explanation": "'let' is block-scoped, while 'var' is function-scoped, meaning 'let' has a more limited scope compared to 'var'."
+                      },
+                      {
+                        "question": "What will happen if you declare a variable with 'let' inside a loop and try to access it outside the loop?",
+                        "options": [
+                          "The variable will be accessible outside the loop.",
+                          "The variable will throw an error when accessed outside the loop.",
+                          "The variable will be hoisted to the top of the function.",
+                          "The variable will be undefined outside the loop."
+                        ],
+                        "correct": 1,
+                        "explanation": "Variables declared with 'let' inside a loop are block-scoped, meaning they are not accessible outside the loop."
+                      },
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                        
+                      
+                    
+                    {
+                    question: "Which property is used to create rounded corners?",
+                    options: [
+                    "corner-radius",
+                    "border-round",
+                    "border-radius",
+                    "rounded-corners"
+                    ],
+                    correct: 2,
+                    explanation: "border-radius is used to create rounded corners on elements."
+                    },
+                    
+                    {
+                    question: "How do you make an element transparent?",
+                    options: [
+                    "opacity: 0.5;",
+                    "transparent: 50%;",
+                    "visibility: 50%;",
+                    "alpha: 50%;"
+                    ],
+                    correct: 0,
+                    explanation: "opacity property controls the transparency of elements, with values from 0 (fully transparent) to 1 (fully opaque)."
+                    },
+                    
+                    {
+                    question: "Which value of display makes an element disappear?",
+                    options: [
+                    "display: invisible;",
+                    "display: none;",
+                    "display: hidden;",
+                    "display: off;"
+                    ],
+                    correct: 1,
+                    explanation: "display: none; removes the element from the document flow and hides it completely."
+                    },
+                    
+                    {
+                    question: "How do you set multiple background colors?",
+                    options: [
+                    "background: linear-gradient(red, blue);",
+                    "background-color: red, blue;",
+                    "background-multi: red blue;",
+                    "colors: red blue;"
+                    ],
+                    correct: 0,
+                    explanation: "linear-gradient is used to create gradients or multiple color transitions."
+                    },
+                    
+                    {
+                    question: "Which property controls text indentation?",
+                    options: [
+                    "paragraph-indent",
+                    "text-indent",
+                    "indent",
+                    "spacing-left"
+                    ],
+                    correct: 1,
+                    explanation: "text-indent property specifies the indentation of the first line in a text block."
+                    },
+                    
+                    {
+                    question: "How do you make text italic in CSS?",
+                    options: [
+                    "font-style: italic;",
+                    "text-style: italic;",
+                    "style: italic;",
+                    "italic: true;"
+                    ],
+                    correct: 0,
+                    explanation: "font-style: italic; is used to make text appear in italic style."
+                    },
+                    
+                    {
+                    question: "Which property sets the width of an element's border?",
+                    options: [
+                    "border-width",
+                    "border-size",
+                    "border-thickness",
+                    "border-weight"
+                    ],
+                    correct: 0,
+                    explanation: "border-width sets the thickness of an element's border."
+                    },
+                    
+                    {
+                    question: "How do you align elements side by side?",
+                    options: [
+                    "align: horizontal;",
+                    "display: inline;",
+                    "float: left;",
+                    "position: side;"
+                    ],
+                    correct: 1,
+                    explanation: "display: inline; or display: inline-block; allows elements to appear side by side."
+                    },
+                    
+                    {
+                    question: "Which property is used to create shadow effects on text?",
+                    options: [
+                    "text-shadow",
+                    "font-shadow",
+                    "letter-shadow",
+                    "shadow-effect"
+                    ],
+                    correct: 0,
+                    explanation: "text-shadow adds shadow effects to text."
+                    },
+                    
+                    {
+                    question: "How do you change the mouse cursor style?",
+                    options: [
+                    "cursor: pointer;",
+                    "mouse: hand;",
+                    "cursor-style: pointer;",
+                    "mouse-cursor: hand;"
+                    ],
+                    correct: 0,
+                    explanation: "cursor property changes how the mouse cursor appears when hovering over an element."
+                    },
+                    
+                    {
+                    question: "Which property controls the spacing between letters?",
+                    options: [
+                    "letter-spacing",
+                    "text-spacing",
+                    "character-spacing",
+                    "font-spacing"
+                    ],
+                    correct: 0,
+                    explanation: "letter-spacing controls the space between characters in text."
+                    },
+                    
+                    {
+                    question: "How do you make an element take up the full height of its parent?",
+                    options: [
+                    "height: full;",
+                    "height: 100%;",
+                    "full-height: true;",
+                    "size: maximum;"
+                    ],
+                    correct: 1,
+                    explanation: "height: 100%; makes an element take up the full height of its parent container."
+                    },    
+                {
+                question: "Which property is used to change the text color?",
+                options: [
+                "text-color",
+                "color",
+                "font-color",
+                "text-style"
+                ],
+                correct: 1,
+                explanation: "The 'color' property is used to set the color of text in CSS."
+                },
+                
+                {
+                question: "How do you add a background color in CSS?",
+                options: [
+                "color-background: yellow;",
+                "bg-color: yellow;",
+                "background-color: yellow;",
+                "background: yellow-color;"
+                ],
+                correct: 2,
+                explanation: "The 'background-color' property is used to set the background color of an element."
+                },
+                
+                {
+                question: "Which property is used to change the font size?",
+                options: [
+                "text-size",
+                "font-size",
+                "text-style",
+                "size"
+                ],
+                correct: 1,
+                explanation: "The 'font-size' property is used to specify the size of text."
+                },
+                
+                {
+                question: "How do you select an element with class 'header' in CSS?",
+                options: [
+                "#header",
+                ".header",
+                "*header",
+                "@header"
+                ],
+                correct: 1,
+                explanation: "A dot (.) followed by the class name is used to select elements with a specific class in CSS."
+                },
+                
+                {
+                question: "Which property is used to add a border to an element?",
+                options: [
+                "border-line",
+                "border",
+                "outline",
+                "border-style"
+                ],
+                correct: 1,
+                explanation: "The 'border' property is used to add a border around an element."
+                },
+                
+                {
+                question: "How do you make text bold in CSS?",
+                options: [
+                "text-bold: true;",
+                "font-bold: true;",
+                "font-weight: bold;",
+                "bold: true;"
+                ],
+                correct: 2,
+                explanation: "The 'font-weight: bold' property is used to make text bold."
+                },
+                
+                {
+                question: "Which CSS property controls the space between lines?",
+                options: [
+                "line-spacing",
+                "line-height",
+                "spacing",
+                "text-spacing"
+                ],
+                correct: 1,
+                explanation: "The 'line-height' property controls the space between lines of text."
+                },
+                
+                {
+                question: "How do you center align text?",
+                options: [
+                "align: center;",
+                "text-align: center;",
+                "center-text: true;",
+                "text: center;"
+                ],
+                correct: 1,
+                explanation: "The 'text-align: center' property is used to center-align text."
+                },
+                
+                {
+                question: "Which property is used to change the font of text?",
+                options: [
+                "font-style",
+                "text-font",
+                "font-family",
+                "text-style"
+                ],
+                correct: 2,
+                explanation: "The 'font-family' property is used to specify the font for text."
+                },
+                
+                {
+                question: "How do you make text uppercase in CSS?",
+                options: [
+                "text-style: uppercase;",
+                "text-transform: uppercase;",
+                "text-case: upper;",
+                "font-case: uppercase;"
+                ],
+                correct: 1,
+                explanation: "The 'text-transform: uppercase' property is used to convert text to uppercase."
+                },
+                
+                {
+                question: "Which property adds space between elements?",
+                options: [
+                "spacing",
+                "margin",
+                "padding",
+                "gap"
+                ],
+                correct: 1,
+                explanation: "The 'margin' property adds space outside elements, between elements."
+                },
+                
+                
+            
+            {
+            question: "What is the CSS Box Model?",
+            options: [
+            "A 3D modeling tool",
+            "A layout method for social media",
+            "The concept that describes content, padding, border, and margin of elements",
+            "A type of CSS framework"
+            ],
+            correct: 2,
+            explanation: "The CSS Box Model is a fundamental concept that describes how elements are structured with content, padding, border, and margin areas."
+            },
+            
+            {
+            question: "What is AJAX?",
+            options: [
+            "A cleaning product",
+            "A JavaScript framework",
+            "A technique for making asynchronous web requests without page reload",
+            "A CSS property"
+            ],
+            correct: 2,
+            explanation: "AJAX (Asynchronous JavaScript and XML) allows web pages to update content dynamically without requiring a full page reload."
+            },
+            
+            {
+            question: "What is the purpose of localStorage in web browsers?",
+            options: [
+            "To store CSS styles",
+            "To cache images",
+            "To store key-value pairs in the browser with no expiration time",
+            "To improve internet speed"
+            ],
+            correct: 2,
+            explanation: "localStorage provides a way to store data persistently in a web browser, with data remaining even after the browser is closed."
+            },
+            
+            {
+            question: "What is a CSS Grid?",
+            options: [
+            "A social media platform",
+            "A two-dimensional layout system for creating complex web layouts",
+            "A type of image format",
+            "A JavaScript library"
+            ],
+            correct: 1,
+            explanation: "CSS Grid is a powerful layout system that allows for creation of complex two-dimensional layouts with rows and columns."
+            },
+            
+            {
+            question: "What is the purpose of the 'alt' attribute in HTML images?",
+            options: [
+            "To make images load faster",
+            "To provide alternative text description for images",
+            "To change image size",
+            "To add image effects"
+            ],
+            correct: 1,
+            explanation: "The alt attribute provides alternative text for images, improving accessibility and displaying when images fail to load."
+            },
+            
+            {
+            question: "What is a RESTful API?",
+            options: [
+            "A sleeping application",
+            "A type of website design",
+            "An architectural style for designing networked applications",
+            "A database system"
+            ],
+            correct: 2,
+            explanation: "REST (Representational State Transfer) is an architectural style for designing networked applications, commonly used for web services."
+            },
+            
+            {
+            question: "What is WebSocket?",
+            options: [
+            "A type of electrical socket",
+            "A protocol providing full-duplex communication channels over TCP",
+            "A CSS framework",
+            "A type of web browser"
+            ],
+            correct: 1,
+            explanation: "WebSocket is a protocol that enables two-way interactive communication between a client and a server over a persistent connection."
+            },
+            
+            {
+            question: "What is the purpose of media queries in CSS?",
+            options: [
+            "To play videos",
+            "To create responsive designs that adapt to different screen sizes",
+            "To query databases",
+            "To load images"
+            ],
+            correct: 1,
+            explanation: "Media queries allow CSS to apply different styles based on device characteristics like screen size, enabling responsive web design."
+            },
+            
+            {
+            question: "What is Cross-Origin Resource Sharing (CORS)?",
+            options: [
+            "A web design pattern",
+            "A security feature that controls how web pages access resources from different domains",
+            "A type of web hosting",
+            "A CSS property"
+            ],
+            correct: 1,
+            explanation: "CORS is a security mechanism that allows or restricts web page requests to resources from different domains."
+            },
+        
+        {
+        question: "What is CSS specificity?",
+        options: [
+        "The size of CSS file",
+        "A method to make CSS load faster",
+        "The weight or importance given to CSS rules to determine which styles are applied",
+        "A CSS framework"
+        ],
+        correct: 2,
+        explanation: "CSS specificity is a weight that determines which CSS rules take precedence when multiple rules target the same element."
+        },
+        
+        {
+        question: "What is a Progressive Web App (PWA)?",
+        options: [
+        "Any website with animations",
+        "A mobile app from app store",
+        "A web application that can function like a native app with features like offline access",
+        "A desktop application"
+        ],
+        correct: 2,
+        explanation: "PWAs are web applications that use modern web capabilities to deliver app-like experiences with features like offline functionality and push notifications."
+        },
+        
+        {
+        question: "What is the purpose of a CSS preprocessor?",
+        options: [
+        "To make websites load faster",
+        "To add images to websites",
+        "To extend CSS with additional features like variables and nesting",
+        "To compress HTML code"
+        ],
+        correct: 2,
+        explanation: "CSS preprocessors like Sass and Less extend CSS functionality by adding features like variables, nesting, and mixins, making CSS code more maintainable."
+        },
+        
+        {
+        question: "What is the role of DOCTYPE in HTML?",
+        options: [
+        "To make text bold",
+        "To declare the HTML version and document type being used",
+        "To add CSS styles",
+        "To include JavaScript"
+        ],
+        correct: 1,
+        explanation: "DOCTYPE declaration tells the browser which version of HTML the page is using, ensuring proper rendering of the content."
+        },
+    {
         question: "What is a cloud-native application?",
         options: [
             "Any application in cloud",
