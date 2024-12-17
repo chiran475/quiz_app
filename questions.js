@@ -1956,6 +1956,1564 @@ const questions = [
                     explanation: "The &lt;meta&gt; tag provides metadata like character set, viewport settings, and keywords."
                 },
                 {
+                    question: "What is the primary purpose of wireframing in web design?",
+                    options: [
+                        "To define the placement of key elements and structure",
+                        "To test website performance",
+                        "To create a content strategy",
+                        "To add CSS styling"
+                    ],
+                    correct: 0,
+                    explanation: "Wireframing focuses on defining the structure and placement of elements on a webpage before detailed design begins."
+                },
+                {
+                    question: "Which phase of the website development process focuses on identifying business goals?",
+                    options: [
+                        "Content Writing Phase",
+                        "Information Gathering Phase",
+                        "Design Phase",
+                        "Testing Phase"
+                    ],
+                    correct: 1,
+                    explanation: "The Information Gathering phase focuses on identifying the website’s purpose and aligning business goals with the project."
+                },
+                {
+                    question: "What is the role of a project manager in website development?",
+                    options: [
+                        "To write and review website content",
+                        "To coordinate the project, manage timelines, and resolve conflicts",
+                        "To design the website layout and user interface",
+                        "To test the website for bugs and issues"
+                    ],
+                    correct: 1,
+                    explanation: "A project manager ensures the project runs smoothly by managing resources, timelines, and communication between stakeholders."
+                },
+                {
+                    question: "What is the purpose of accessibility testing in web development?",
+                    options: [
+                        "To test the website’s loading speed",
+                        "To ensure the website is usable for individuals with disabilities",
+                        "To improve website navigation",
+                        "To identify SEO issues"
+                    ],
+                    correct: 1,
+                    explanation: "Accessibility testing ensures the website is usable for individuals with disabilities by adhering to standards like WCAG."
+                },
+                {
+                    question: "Which of the following is an example of a dynamic website?",
+                    options: [
+                        "A personal portfolio website",
+                        "An e-commerce website with product updates",
+                        "A simple brochure website",
+                        "A single-page landing site"
+                    ],
+                    correct: 1,
+                    explanation: "Dynamic websites feature content that changes based on user interactions, such as an e-commerce site with frequent updates."
+                },
+                {
+                    question: "What is the main purpose of a sitemap in web development?",
+                    options: [
+                        "To define the visual design of the website",
+                        "To plan the navigation structure and hierarchy of the website",
+                        "To create user input forms",
+                        "To test website functionality"
+                    ],
+                    correct: 1,
+                    explanation: "A sitemap helps plan the navigation structure and hierarchy, ensuring the website is organized and user-friendly."
+                },
+                {
+                    question: "Which of the following tools is commonly used for wireframing?",
+                    options: [
+                        "Figma",
+                        "Visual Studio Code",
+                        "Google Analytics",
+                        "Node.js"
+                    ],
+                    correct: 0,
+                    explanation: "Figma is a popular tool for wireframing and creating prototypes during the design phase."
+                },
+                {
+                    question: "What is the role of backend development in website creation?",
+                    options: [
+                        "To design the user interface",
+                        "To handle server-side logic and database management",
+                        "To write content for the website",
+                        "To test for accessibility compliance"
+                    ],
+                    correct: 1,
+                    explanation: "Backend development focuses on server-side programming and database management to ensure website functionality."
+                },
+                {
+                    question: "What does SEO stand for in website development?",
+                    options: [
+                        "Search Engine Optimization",
+                        "Software Efficiency Operations",
+                        "Secure Environment Options",
+                        "Server Engagement Optimization"
+                    ],
+                    correct: 0,
+                    explanation: "SEO stands for Search Engine Optimization, which improves a website’s visibility on search engines."
+                },
+                {
+                    question: "Which phase involves defining short-term and long-term business goals?",
+                    options: [
+                        "Content Creation",
+                        "Testing and Review",
+                        "Information Gathering",
+                        "Coding"
+                    ],
+                    correct: 2,
+                    explanation: "The Information Gathering phase includes analyzing business goals to ensure the website aligns with strategic objectives."
+                },
+                {
+                    question: "What is the purpose of usability testing?",
+                    options: [
+                        "To identify performance issues in the backend",
+                        "To ensure the website is user-friendly and intuitive",
+                        "To test database performance",
+                        "To optimize CSS and JavaScript files"
+                    ],
+                    correct: 1,
+                    explanation: "Usability testing ensures the website is user-friendly, intuitive, and provides a seamless user experience."
+                },
+                {
+                    question: "What is the key focus of frontend development?",
+                    options: [
+                        "Creating the website’s server-side logic",
+                        "Designing the database schema",
+                        "Developing the parts of the website users interact with",
+                        "Managing security protocols"
+                    ],
+                    correct: 2,
+                    explanation: "Frontend development focuses on creating the parts of the website that users see and interact with, using HTML, CSS, and JavaScript."
+                },
+                {
+                    question: "What is a major benefit of creating a style guide in web design?",
+                    options: [
+                        "To ensure consistency in design elements across the website",
+                        "To speed up server-side programming",
+                        "To enhance website testing processes",
+                        "To reduce the size of image files"
+                    ],
+                    correct: 0,
+                    explanation: "A style guide ensures consistency in design elements like fonts, colors, and components across the website."
+                },
+                {
+                    question: "Which of the following is an example of performance optimization?",
+                    options: [
+                        "Writing detailed meta descriptions",
+                        "Minifying CSS, JavaScript, and HTML files",
+                        "Conducting accessibility testing",
+                        "Adding interactive animations to the website"
+                    ],
+                    correct: 1,
+                    explanation: "Performance optimization includes techniques like minifying files to improve website load speed."
+                },
+                {
+                    question: "Why is version control important in web development?",
+                    options: [
+                        "To organize content on the website",
+                        "To track and manage changes to the codebase",
+                        "To test website responsiveness",
+                        "To ensure accessibility compliance"
+                    ],
+                    correct: 1,
+                    explanation: "Version control helps developers track and manage changes to the codebase, enabling collaboration and reducing errors."
+                },
+                {
+                    question: "What is the purpose of functional testing in website development?",
+                    options: [
+                        "To check if the website is visually appealing",
+                        "To ensure all features and functionalities work as intended",
+                        "To improve the website's SEO performance",
+                        "To identify accessibility issues"
+                    ],
+                    correct: 1,
+                    explanation: "Functional testing ensures that all features and functionalities of the website work as intended, such as forms, links, and navigation."
+                },
+                {
+                    question: "What does the term 'responsive design' mean?",
+                    options: [
+                        "Designing a website that responds quickly to user queries",
+                        "Creating a design that adjusts seamlessly to different screen sizes and devices",
+                        "Adding animations to improve website interactivity",
+                        "Testing the website for bugs and errors"
+                    ],
+                    correct: 1,
+                    explanation: "Responsive design ensures the website adapts seamlessly to different screen sizes and devices for a consistent user experience."
+                },
+                {
+                    question: "What is the role of content proofreading in website development?",
+                    options: [
+                        "To verify code functionality",
+                        "To ensure content is free from errors and meets quality standards",
+                        "To organize website content into logical sections",
+                        "To add metadata for SEO purposes"
+                    ],
+                    correct: 1,
+                    explanation: "Content proofreading eliminates errors and ensures the content is clear, accurate, and aligned with quality standards."
+                },
+                {
+                    question: "Which of the following is a key goal of user experience (UX) design?",
+                    options: [
+                        "To make the website visually appealing",
+                        "To create an intuitive and enjoyable interaction for users",
+                        "To optimize backend server performance",
+                        "To implement database management systems"
+                    ],
+                    correct: 1,
+                    explanation: "User experience (UX) design focuses on creating an intuitive, efficient, and enjoyable interaction between the user and the website."
+                },
+                {
+                    question: "What is the main purpose of the 'Information Gathering' phase?",
+                    options: [
+                        "To collect requirements, goals, and audience details for the website",
+                        "To write and publish website content",
+                        "To test the website for performance issues",
+                        "To create the website’s backend infrastructure"
+                    ],
+                    correct: 0,
+                    explanation: "The Information Gathering phase involves collecting requirements, business goals, and audience details to guide the development process."
+                },
+                {
+                    question: "Why is accessibility important in web development?",
+                    options: [
+                        "To improve the website's SEO rankings",
+                        "To ensure the website can be used by individuals with disabilities",
+                        "To make the website visually appealing",
+                        "To optimize database queries"
+                    ],
+                    correct: 1,
+                    explanation: "Accessibility ensures the website can be used effectively by individuals with disabilities, adhering to guidelines like WCAG."
+                },
+                {
+                    question: "What is the purpose of the 'deployment process' in web development?",
+                    options: [
+                        "To move the website from the development environment to the live server",
+                        "To create wireframes for the website design",
+                        "To write the website’s content strategy",
+                        "To test the website’s performance under load"
+                    ],
+                    correct: 0,
+                    explanation: "The deployment process involves moving the website from the development environment to the live server, making it accessible to users."
+                },
+                {
+                    question: "Which of the following is a benefit of using a content management system (CMS)?",
+                    options: [
+                        "It helps in writing clean and optimized backend code",
+                        "It simplifies the process of creating, managing, and updating website content",
+                        "It ensures the website’s database performs efficiently",
+                        "It reduces the need for frontend frameworks"
+                    ],
+                    correct: 1,
+                    explanation: "A CMS simplifies the process of creating, managing, and updating website content without requiring technical expertise."
+                },
+                {
+                    question: "What is the primary function of backend optimization?",
+                    options: [
+                        "To improve server-side performance and data handling",
+                        "To design an engaging user interface",
+                        "To enhance SEO integration on the website",
+                        "To create wireframes for the website"
+                    ],
+                    correct: 0,
+                    explanation: "Backend optimization focuses on improving server-side performance, such as optimizing database queries and caching data."
+                },
+                {
+                    question: "What is the purpose of performance testing?",
+                    options: [
+                        "To verify that all website features work as intended",
+                        "To ensure the website loads quickly and can handle expected traffic",
+                        "To test the website’s visual design and branding",
+                        "To validate content organization and placement"
+                    ],
+                    correct: 1,
+                    explanation: "Performance testing ensures the website loads quickly, operates efficiently, and can handle expected traffic without issues."
+                },
+                {
+                    question: "What is the purpose of a project scope in website development?",
+                    options: [
+                        "To identify target audience preferences",
+                        "To define the features, functionalities, and limitations of the project",
+                        "To test the website’s cross-browser compatibility",
+                        "To organize website content into categories"
+                    ],
+                    correct: 1,
+                    explanation: "Project scope defines the features, functionalities, and limitations of the website to ensure clear boundaries and prevent scope creep."
+                },
+                {
+                    question: "What is the key purpose of database management in web development?",
+                    options: [
+                        "To store and manage website data securely and efficiently",
+                        "To create user interfaces for the website",
+                        "To test website performance under heavy traffic",
+                        "To optimize CSS and JavaScript files"
+                    ],
+                    correct: 0,
+                    explanation: "Database management involves storing and managing website data securely and efficiently for seamless functionality."
+                },
+                {
+                    question: "Which of the following is an example of frontend optimization?",
+                    options: [
+                        "Using lazy loading for images",
+                        "Implementing secure login systems",
+                        "Minimizing database queries",
+                        "Conducting accessibility testing"
+                    ],
+                    correct: 0,
+                    explanation: "Frontend optimization techniques like lazy loading for images help improve page load times and enhance user experience."
+                },
+                {
+                    question: "What does 'version control' help developers achieve?",
+                    options: [
+                        "To track and manage changes to the codebase over time",
+                        "To organize the website content logically",
+                        "To ensure consistent visual design",
+                        "To improve search engine rankings"
+                    ],
+                    correct: 0,
+                    explanation: "Version control helps developers track and manage changes to the codebase, enabling collaboration and maintaining code history."
+                },
+                {
+                    question: "Which of the following is a best practice for accessibility?",
+                    options: [
+                        "Using high-resolution images without compression",
+                        "Providing descriptive alt text for images",
+                        "Designing websites with only bright colors",
+                        "Testing websites only on desktop devices"
+                    ],
+                    correct: 1,
+                    explanation: "Providing descriptive alt text for images ensures that visually impaired users can understand the content using screen readers."
+                },
+                {
+                    question: "What is the primary purpose of wireframing?",
+                    options: [
+                        "To create the final visual design of the website",
+                        "To provide a blueprint of the website’s structure and layout",
+                        "To test the website for bugs and performance issues",
+                        "To write content for the website’s pages"
+                    ],
+                    correct: 1,
+                    explanation: "Wireframing provides a basic blueprint of the website’s structure and layout, focusing on functionality rather than aesthetics."
+                },
+                {
+                    question: "Why is user feedback important in the website development process?",
+                    options: [
+                        "To identify usability issues and areas for improvement",
+                        "To optimize backend server performance",
+                        "To validate coding standards",
+                        "To reduce project scope"
+                    ],
+                    correct: 0,
+                    explanation: "User feedback helps identify usability issues and areas for improvement, ensuring the final website meets user needs."
+                },
+                {
+                    question: "What is the role of quality assurance (QA) in website development?",
+                    options: [
+                        "To write and manage website content",
+                        "To test the website for bugs, errors, and functionality issues",
+                        "To optimize the database for better performance",
+                        "To develop backend server logic"
+                    ],
+                    correct: 1,
+                    explanation: "The QA team tests the website for bugs, errors, and functionality issues to ensure everything works as intended before launch."
+                },
+                {
+                    question: "Which tool is commonly used for accessibility testing?",
+                    options: [
+                        "Lighthouse",
+                        "Figma",
+                        "Bootstrap",
+                        "GitHub"
+                    ],
+                    correct: 0,
+                    explanation: "Lighthouse is a tool that audits website performance, accessibility, and SEO compliance."
+                },
+                {
+                    question: "What is the main benefit of performance monitoring post-launch?",
+                    options: [
+                        "To track and improve website loading times and uptime",
+                        "To write content for blog updates",
+                        "To gather client approval for the project",
+                        "To enhance visual elements on the website"
+                    ],
+                    correct: 0,
+                    explanation: "Performance monitoring ensures the website operates efficiently post-launch by tracking loading times, uptime, and resource usage."
+                },
+                {
+                    question: "What is the main purpose of SEO in website development?",
+                    options: [
+                        "To improve the website’s search engine visibility",
+                        "To test the website’s functionality",
+                        "To manage website security protocols",
+                        "To design the website layout"
+                    ],
+                    correct: 0,
+                    explanation: "SEO (Search Engine Optimization) improves a website’s visibility on search engines, increasing traffic and discoverability."
+                },
+                {
+                    question: "Which of the following ensures a website is mobile-friendly?",
+                    options: [
+                        "Backend optimization",
+                        "Responsive design",
+                        "Wireframing",
+                        "Database management"
+                    ],
+                    correct: 1,
+                    explanation: "Responsive design ensures a website adapts to different screen sizes, making it mobile-friendly and user-friendly."
+                },
+                {
+                    question: "What is the purpose of unit testing during the coding phase?",
+                    options: [
+                        "To test individual components or functions of the code",
+                        "To ensure website content is error-free",
+                        "To gather user feedback on design",
+                        "To improve SEO rankings"
+                    ],
+                    correct: 0,
+                    explanation: "Unit testing verifies individual components or functions to ensure they work as intended, reducing bugs during development."
+                },
+                {
+                    question: "Why is a disaster recovery plan important for a website?",
+                    options: [
+                        "To provide quick restoration in case of failures or emergencies",
+                        "To test user interactions on the website",
+                        "To gather analytics on website traffic",
+                        "To improve the website’s visual hierarchy"
+                    ],
+                    correct: 0,
+                    explanation: "A disaster recovery plan ensures quick restoration of a website in case of failures, minimizing downtime and data loss."
+                },
+                {
+                    question: "What is the purpose of a content strategy in web development?",
+                    options: [
+                        "To ensure content aligns with audience needs and business goals",
+                        "To test website responsiveness on mobile devices",
+                        "To manage server-side logic and databases",
+                        "To reduce website load times"
+                    ],
+                    correct: 0,
+                    explanation: "A content strategy ensures the content is relevant, engaging, and aligned with audience needs and business goals."
+                },
+                {
+                    question: "What is the purpose of using alt text for images?",
+                    options: [
+                        "To improve the website's SEO ranking",
+                        "To describe images for visually impaired users using screen readers",
+                        "To reduce the file size of images",
+                        "To make the website load faster"
+                    ],
+                    correct: 1,
+                    explanation: "Alt text provides descriptions of images, ensuring visually impaired users can understand the content through screen readers."
+                },
+                {
+                    question: "Which of the following is a key accessibility practice?",
+                    options: [
+                        "Using small font sizes for compact design",
+                        "Providing sufficient color contrast between text and background",
+                        "Using high-resolution videos without captions",
+                        "Designing interactive elements without keyboard support"
+                    ],
+                    correct: 1,
+                    explanation: "Providing sufficient color contrast ensures text is readable for users with visual impairments."
+                },
+                {
+                    question: "Why is keyboard navigation important for accessibility?",
+                    options: [
+                        "It helps users navigate a website without using a mouse",
+                        "It reduces website load time",
+                        "It improves the visual appeal of the website",
+                        "It optimizes server-side performance"
+                    ],
+                    correct: 0,
+                    explanation: "Keyboard navigation allows users who cannot use a mouse to interact with and navigate a website effectively."
+                },
+                {
+                    question: "What does WCAG stand for in web accessibility?",
+                    options: [
+                        "Web Content Accessibility Guidelines",
+                        "Website Code and Graphics",
+                        "Web Configuration and Accessibility Goals",
+                        "Web Compliance and Accessibility Guidelines"
+                    ],
+                    correct: 0,
+                    explanation: "WCAG stands for Web Content Accessibility Guidelines, which provide standards for making web content accessible to all users."
+                },
+                {
+                    question: "Why are captions important for video content on a website?",
+                    options: [
+                        "To improve the video loading speed",
+                        "To provide text descriptions for users with hearing impairments",
+                        "To reduce the video file size",
+                        "To enhance the video’s visual quality"
+                    ],
+                    correct: 1,
+                    explanation: "Captions ensure users with hearing impairments can understand video content by providing text descriptions of the audio."
+                },
+                {
+                    question: "What is the primary purpose of performance monitoring in website maintenance?",
+                    options: [
+                        "To track page load speed, uptime, and resource usage",
+                        "To redesign the user interface for modern trends",
+                        "To update content and publish new articles",
+                        "To optimize backend server logic"
+                    ],
+                    correct: 0,
+                    explanation: "Performance monitoring helps track metrics like page load speed, uptime, and resource usage to ensure the website operates efficiently."
+                },
+                {
+                    question: "Why are regular content updates important in website maintenance?",
+                    options: [
+                        "To improve SEO rankings and keep users engaged",
+                        "To redesign the website structure",
+                        "To test the website for security vulnerabilities",
+                        "To monitor database performance"
+                    ],
+                    correct: 0,
+                    explanation: "Regular content updates improve SEO rankings, attract new visitors, and keep existing users engaged with fresh information."
+                },
+                {
+                    question: "What is the purpose of a backup and recovery plan in website maintenance?",
+                    options: [
+                        "To prevent unauthorized access to the website",
+                        "To restore the website quickly in case of data loss or failures",
+                        "To optimize the website’s visual hierarchy",
+                        "To improve the loading speed of the website"
+                    ],
+                    correct: 1,
+                    explanation: "A backup and recovery plan ensures the website can be restored quickly in case of data loss, cyberattacks, or technical failures."
+                },
+                {
+                    question: "Why is software updating a critical part of website maintenance?",
+                    options: [
+                        "To enhance the visual design of the website",
+                        "To fix bugs, improve security, and ensure compatibility with new technologies",
+                        "To optimize database queries",
+                        "To test the website’s user experience"
+                    ],
+                    correct: 1,
+                    explanation: "Software updates fix bugs, improve security, and ensure the website remains compatible with the latest technologies."
+                },
+                {
+                    question: "What is the purpose of security monitoring in website maintenance?",
+                    options: [
+                        "To improve the visual design and content organization",
+                        "To test for user engagement and interaction",
+                        "To detect and prevent security vulnerabilities like malware and unauthorized access",
+                        "To reduce the website’s loading time"
+                    ],
+                    correct: 2,
+                    explanation: "Security monitoring ensures the website is protected by detecting vulnerabilities, malware, and unauthorized access attempts."
+                },
+                {
+                    question: "Why is it important to monitor website uptime?",
+                    options: [
+                        "To ensure the website is always accessible to users",
+                        "To track the number of website visitors",
+                        "To optimize image file sizes",
+                        "To reduce the number of bugs in the code"
+                    ],
+                    correct: 0,
+                    explanation: "Monitoring uptime ensures the website is always accessible to users, helping prevent disruptions in service."
+                },
+                {
+                    question: "What is the main reason for fixing broken links on a website?",
+                    options: [
+                        "To improve SEO and enhance user experience",
+                        "To increase website loading speed",
+                        "To improve backend database performance",
+                        "To reduce content creation time"
+                    ],
+                    correct: 0,
+                    explanation: "Fixing broken links improves user experience and boosts SEO by ensuring all links lead to valid pages."
+                },
+                {
+                    question: "What is the benefit of analyzing website analytics regularly?",
+                    options: [
+                        "To identify user behavior and improve content strategy",
+                        "To update the website's visual design",
+                        "To fix security vulnerabilities in the code",
+                        "To ensure website files are backed up"
+                    ],
+                    correct: 0,
+                    explanation: "Regularly analyzing website analytics helps identify user behavior patterns and informs content and design improvements."
+                },
+                {
+                    question: "Why should website backups be stored in multiple locations?",
+                    options: [
+                        "To prevent loss of data due to hardware failure or cyberattacks",
+                        "To improve the website's visual design",
+                        "To optimize the page load speed",
+                        "To enhance user interface performance"
+                    ],
+                    correct: 0,
+                    explanation: "Storing backups in multiple locations ensures data recovery is possible in case of hardware failure, cyberattacks, or technical issues."
+                },
+                {
+                    question: "What is a common purpose of running security audits on a website?",
+                    options: [
+                        "To detect vulnerabilities and protect against potential cyber threats",
+                        "To enhance website design and layout",
+                        "To improve content placement",
+                        "To optimize frontend animations"
+                    ],
+                    correct: 0,
+                    explanation: "Security audits detect vulnerabilities and ensure protection against cyber threats like malware and unauthorized access."
+                },
+                {
+                    question: "Why is it essential to update plugins and third-party tools regularly?",
+                    options: [
+                        "To ensure compatibility, fix bugs, and improve security",
+                        "To improve the website's visual design",
+                        "To track the website's user analytics",
+                        "To create new content for the website"
+                    ],
+                    correct: 0,
+                    explanation: "Regularly updating plugins ensures compatibility with new technologies, fixes bugs, and addresses security vulnerabilities."
+                },
+                {
+                    question: "What does optimizing database queries help achieve in website maintenance?",
+                    options: [
+                        "Faster website performance and reduced server load",
+                        "Improved website aesthetics and visual hierarchy",
+                        "Enhanced security monitoring",
+                        "Better user experience on mobile devices"
+                    ],
+                    correct: 0,
+                    explanation: "Optimizing database queries improves website performance by reducing server load and speeding up data retrieval."
+                },
+                {
+                    question: "Why is user feedback monitoring important during maintenance?",
+                    options: [
+                        "To identify usability issues and improve user experience",
+                        "To enhance backend performance",
+                        "To reduce the website’s hosting costs",
+                        "To optimize visual content like images and videos"
+                    ],
+                    correct: 0,
+                    explanation: "User feedback monitoring helps identify usability issues and areas for improvement to enhance the overall user experience."
+                },
+                {
+                    question: "What is a key benefit of regular SEO maintenance?",
+                    options: [
+                        "To sustain or improve the website’s search engine rankings",
+                        "To reduce the cost of hosting the website",
+                        "To improve backend server security",
+                        "To enhance website animations and visuals"
+                    ],
+                    correct: 0,
+                    explanation: "Regular SEO maintenance ensures the website stays optimized for search engines, improving visibility and traffic."
+                },
+                {
+                    question: "Why should website performance be tested regularly during maintenance?",
+                    options: [
+                        "To identify slow load times and improve user experience",
+                        "To update the visual content regularly",
+                        "To fix grammar issues in website text",
+                        "To optimize third-party plugins"
+                    ],
+                    correct: 0,
+                    explanation: "Regular performance testing helps identify slow load times and bottlenecks, ensuring a smooth user experience."
+                },
+                {
+                    question: "What is the primary purpose of Cloudflare in web development?",
+                    options: [
+                        "To host backend code for applications",
+                        "To improve website performance and security through a CDN and DDoS protection",
+                        "To manage databases for dynamic websites",
+                        "To write server-side JavaScript code"
+                    ],
+                    correct: 1,
+                    explanation: "Cloudflare provides a Content Delivery Network (CDN) and DDoS protection to improve website performance and security."
+                },
+                {
+                    question: "What is Node.js primarily used for?",
+                    options: [
+                        "To manage SQL databases",
+                        "To create and run server-side JavaScript applications",
+                        "To optimize frontend animations",
+                        "To deploy static websites to the cloud"
+                    ],
+                    correct: 1,
+                    explanation: "Node.js is a JavaScript runtime that allows developers to build and run server-side applications."
+                },
+                {
+                    question: "Which of the following describes the role of SQL in web development?",
+                    options: [
+                        "To manage and query relational databases",
+                        "To host and deploy static websites",
+                        "To secure websites against DDoS attacks",
+                        "To optimize CSS and JavaScript files"
+                    ],
+                    correct: 0,
+                    explanation: "SQL (Structured Query Language) is used to manage and query data in relational databases."
+                },
+                {
+                    question: "What is Netlify commonly used for in web development?",
+                    options: [
+                        "To deploy and host static websites with continuous integration",
+                        "To write backend server-side code",
+                        "To create database schemas",
+                        "To secure web applications from malware"
+                    ],
+                    correct: 0,
+                    explanation: "Netlify is a platform for deploying and hosting static websites with features like continuous integration and automated builds."
+                },
+                {
+                    question: "How does Cloudflare's CDN improve website performance?",
+                    options: [
+                        "By optimizing the website's database queries",
+                        "By caching content and delivering it from servers closer to the user",
+                        "By providing server-side JavaScript functionality",
+                        "By hosting static website content on the cloud"
+                    ],
+                    correct: 1,
+                    explanation: "Cloudflare’s CDN caches website content and delivers it from the nearest servers to reduce load times."
+                },
+                {
+                    question: "What type of tool is React?",
+                    options: [
+                        "A framework for building full-stack applications",
+                        "A JavaScript library for building user interfaces",
+                        "A database management system",
+                        "A tool for optimizing CSS"
+                    ],
+                    correct: 1,
+                    explanation: "React is a JavaScript library used for building user interfaces, especially single-page applications."
+                },
+                {
+                    question: "What is Vue.js primarily used for?",
+                    options: [
+                        "Backend development",
+                        "Building user interfaces and single-page applications",
+                        "Database management",
+                        "Writing server-side logic"
+                    ],
+                    correct: 1,
+                    explanation: "Vue.js is a progressive JavaScript framework used for building user interfaces and single-page applications."
+                },
+                {
+                    question: "Which of the following is a key feature of Angular?",
+                    options: [
+                        "It is a backend framework for server-side applications",
+                        "It is a JavaScript library for animations",
+                        "It is a full-fledged framework for building dynamic web applications",
+                        "It is a tool for database management"
+                    ],
+                    correct: 2,
+                    explanation: "Angular is a full-fledged framework that provides a comprehensive solution for building dynamic web applications."
+                },
+                {
+                    question: "What is the main purpose of Node.js in the JavaScript ecosystem?",
+                    options: [
+                        "To run JavaScript code in the browser",
+                        "To run JavaScript code on the server-side",
+                        "To manage JavaScript libraries",
+                        "To optimize CSS performance"
+                    ],
+                    correct: 1,
+                    explanation: "Node.js allows JavaScript to be run on the server-side, enabling full-stack JavaScript development."
+                },
+                {
+                    question: "Which tool is used to manage packages and dependencies in JavaScript projects?",
+                    options: [
+                        "NPM (Node Package Manager)",
+                        "React",
+                        "Vue CLI",
+                        "Angular CLI"
+                    ],
+                    correct: 0,
+                    explanation: "NPM (Node Package Manager) is used to manage packages and dependencies in JavaScript projects."
+                },
+                {
+                    question: "Which of the following is NOT a JavaScript framework?",
+                    options: [
+                        "React",
+                        "Angular",
+                        "Vue",
+                        "jQuery"
+                    ],
+                    correct: 3,
+                    explanation: "jQuery is a JavaScript library, not a framework. React, Angular, and Vue are all JavaScript frameworks or libraries."
+                },
+                {
+                    question: "What is the purpose of Redux in React applications?",
+                    options: [
+                        "To manage the server-side logic",
+                        "To manage application state in a predictable way",
+                        "To build the user interface",
+                        "To handle HTTP requests"
+                    ],
+                    correct: 1,
+                    explanation: "Redux is a library used to manage the state of React applications in a predictable and centralized manner."
+                },
+                {
+                    question: "Which JavaScript tool is commonly used for building and bundling projects?",
+                    options: [
+                        "Webpack",
+                        "Node.js",
+                        "Express",
+                        "jQuery"
+                    ],
+                    correct: 0,
+                    explanation: "Webpack is a module bundler used to bundle JavaScript files, CSS, and other assets in a project."
+                },
+                {
+                    question: "Which of the following is true about TypeScript?",
+                    options: [
+                        "It is a superset of JavaScript that adds static typing",
+                        "It is a JavaScript library for DOM manipulation",
+                        "It is a framework for building mobile applications",
+                        "It is used for backend server-side scripting"
+                    ],
+                    correct: 0,
+                    explanation: "TypeScript is a superset of JavaScript that introduces static typing and other features to improve code quality and development efficiency."
+                },
+                {
+                    question: "Which of the following tools is used to create single-page applications (SPAs) in JavaScript?",
+                    options: [
+                        "React",
+                        "SQL",
+                        "Bootstrap",
+                        "Node.js"
+                    ],
+                    correct: 0,
+                    explanation: "React is widely used for creating single-page applications (SPAs) due to its component-based architecture."
+                },
+                {
+                    question: "What is Express.js primarily used for?",
+                    options: [
+                        "Frontend development for building user interfaces",
+                        "Server-side routing and middleware handling in Node.js applications",
+                        "Database management for SQL databases",
+                        "Optimizing CSS and JavaScript files"
+                    ],
+                    correct: 1,
+                    explanation: "Express.js is a minimal and flexible Node.js web application framework used for handling routing and middleware on the server-side."
+                },
+                {
+                    question: "Which of the following is a NoSQL database commonly used in backend development?",
+                    options: [
+                        "MySQL",
+                        "PostgreSQL",
+                        "MongoDB",
+                        "SQLite"
+                    ],
+                    correct: 2,
+                    explanation: "MongoDB is a popular NoSQL database used in backend development, particularly for handling unstructured or semi-structured data."
+                },
+                {
+                    question: "What is the main role of a backend framework like Django?",
+                    options: [
+                        "To build dynamic web pages and manage frontend logic",
+                        "To handle the server-side logic, database interaction, and URL routing",
+                        "To optimize images and static files",
+                        "To write frontend JavaScript code"
+                    ],
+                    correct: 1,
+                    explanation: "Django is a high-level Python web framework that focuses on handling backend logic, including database interaction, server-side routing, and URL management."
+                },
+                {
+                    question: "What does the term 'RESTful API' refer to in backend development?",
+                    options: [
+                        "A type of database query language",
+                        "A standard for building APIs based on HTTP methods and resources",
+                        "A tool for managing user authentication",
+                        "A frontend framework for building user interfaces"
+                    ],
+                    correct: 1,
+                    explanation: "A RESTful API is a set of web services based on HTTP methods (GET, POST, PUT, DELETE) that allows communication between client and server by manipulating resources."
+                },
+                {
+                    question: "Which of the following is used to handle asynchronous operations in Node.js?",
+                    options: [
+                        "Callbacks, Promises, and Async/Await",
+                        "SQL queries",
+                        "Express middleware",
+                        "HTML forms"
+                    ],
+                    correct: 0,
+                    explanation: "Node.js handles asynchronous operations using callbacks, Promises, and Async/Await to allow non-blocking execution."
+                },
+                {
+                    question: "What is the purpose of a SQL database in backend development?",
+                    options: [
+                        "To store structured data and allow complex queries",
+                        "To build user interfaces",
+                        "To manage authentication and user sessions",
+                        "To handle server-side routing"
+                    ],
+                    correct: 0,
+                    explanation: "SQL databases are used to store structured data in tables and allow complex queries using SQL to manipulate and retrieve data."
+                },
+                {
+                    question: "Which backend framework is built using Python?",
+                    options: [
+                        "Express.js",
+                        "Django",
+                        "Spring",
+                        "Laravel"
+                    ],
+                    correct: 1,
+                    explanation: "Django is a backend framework built using Python, providing tools for building robust web applications with features like ORM and URL routing."
+                },
+                {
+                    question: "What is the primary use of Redis in backend development?",
+                    options: [
+                        "To store and manage structured data in tables",
+                        "To handle session management and caching for fast data retrieval",
+                        "To write server-side JavaScript",
+                        "To handle user authentication"
+                    ],
+                    correct: 1,
+                    explanation: "Redis is an in-memory data store commonly used for caching and session management to speed up data retrieval in backend applications."
+                },
+                {
+                    question: "Which of the following is a backend language commonly used for web development?",
+                    options: [
+                        "JavaScript",
+                        "Python",
+                        "HTML",
+                        "CSS"
+                    ],
+                    correct: 1,
+                    explanation: "Python is a backend programming language often used with frameworks like Django and Flask to build web applications."
+                },
+                {
+                    question: "What is the role of WebSockets in backend development?",
+                    options: [
+                        "To enable two-way communication between the client and server in real-time",
+                        "To store user data in a database",
+                        "To optimize website images",
+                        "To write SQL queries for databases"
+                    ],
+                    correct: 0,
+                    explanation: "WebSockets enable real-time, two-way communication between the client and server, making it ideal for applications like chat systems and live updates."
+                },
+                {
+                    question: "What is the purpose of a website's information architecture?",
+                    options: [
+                        "To create the visual design of the website",
+                        "To organize and structure content for easy navigation",
+                        "To write backend server code",
+                        "To manage database queries"
+                    ],
+                    correct: 1,
+                    explanation: "Information architecture focuses on organizing and structuring content on a website to make it easy for users to navigate and find information."
+                },
+                {
+                    question: "What does a wireframe represent in website design?",
+                    options: [
+                        "A fully styled, interactive webpage",
+                        "The layout and structure of a webpage without design elements",
+                        "The backend database structure",
+                        "A user flow diagram"
+                    ],
+                    correct: 1,
+                    explanation: "A wireframe is a low-fidelity visual representation of a webpage's layout and structure, focusing on functionality rather than design."
+                },
+                {
+                    question: "What is the purpose of a style guide in web design?",
+                    options: [
+                        "To ensure consistency in design elements like colors, fonts, and spacing",
+                        "To optimize images for faster load times",
+                        "To manage database schemas",
+                        "To write backend API code"
+                    ],
+                    correct: 0,
+                    explanation: "A style guide ensures that design elements like colors, fonts, and spacing are consistent across the website for a cohesive user experience."
+                },
+                {
+                    question: "Which of the following is an example of a website’s wireframe?",
+                    options: [
+                        "A flowchart of user interactions",
+                        "A sketch showing the layout of a webpage without detailed design",
+                        "A final, fully styled webpage",
+                        "A code file for the website"
+                    ],
+                    correct: 1,
+                    explanation: "A wireframe is a sketch or blueprint of a webpage layout, used to plan the structure before adding design elements."
+                },
+                {
+                    question: "What does responsive design ensure for a website?",
+                    options: [
+                        "It makes the website load faster on desktop devices",
+                        "It ensures the website adapts to different screen sizes and devices",
+                        "It reduces the amount of content on mobile devices",
+                        "It improves the website’s SEO ranking"
+                    ],
+                    correct: 1,
+                    explanation: "Responsive design ensures that the website layout and content adapt to different screen sizes, providing a seamless experience across devices."
+                },
+                {
+                    question: "What is the role of navigation in website structure?",
+                    options: [
+                        "To organize content and help users find information easily",
+                        "To write the HTML code for the website",
+                        "To optimize backend server performance",
+                        "To handle security and user authentication"
+                    ],
+                    correct: 0,
+                    explanation: "Navigation organizes the website's content into categories and provides users with an intuitive way to access different pages and sections."
+                },
+                {
+                    question: "What is the purpose of a sitemap in website design?",
+                    options: [
+                        "To create the website’s layout and color scheme",
+                        "To define the website’s information architecture and page hierarchy",
+                        "To write backend code for user authentication",
+                        "To test website performance"
+                    ],
+                    correct: 1,
+                    explanation: "A sitemap outlines the structure of a website, showing how pages are organized and linked, which helps with planning navigation and SEO."
+                },
+                {
+                    question: "What is a key benefit of using a grid system in web design?",
+                    options: [
+                        "To make the website content align consistently across different screen sizes",
+                        "To improve the website’s SEO performance",
+                        "To reduce server load",
+                        "To write cleaner CSS code"
+                    ],
+                    correct: 0,
+                    explanation: "A grid system ensures that website content is aligned consistently, creating a visually appealing and structured layout across devices."
+                },
+                {
+                    question: "What is the purpose of usability testing in website design?",
+                    options: [
+                        "To ensure the website is accessible to users with disabilities",
+                        "To identify and resolve issues with website performance",
+                        "To test the website's user interface and identify usability issues",
+                        "To improve SEO rankings"
+                    ],
+                    correct: 2,
+                    explanation: "Usability testing focuses on evaluating the user interface and identifying potential issues to improve the overall user experience."
+                },
+                {
+                    question: "What is a user flow in website design?",
+                    options: [
+                        "A map showing the path users take to complete specific tasks on the website",
+                        "A tool for optimizing the website’s load time",
+                        "A list of all the design elements used on the website",
+                        "A report on website traffic and analytics"
+                    ],
+                    correct: 0,
+                    explanation: "A user flow represents the steps users take to complete specific tasks on a website, helping designers optimize the user experience."
+                },
+                {
+                    question: "What is the primary use of Nginx in web development?",
+                    options: [
+                        "To manage JavaScript dependencies",
+                        "To serve static content and act as a reverse proxy server",
+                        "To write server-side JavaScript code",
+                        "To handle database queries"
+                    ],
+                    correct: 1,
+                    explanation: "Nginx is a web server used for serving static content, acting as a reverse proxy, and load balancing for web applications."
+                },
+                {
+                    question: "Which of the following is a key feature of Apache HTTP Server?",
+                    options: [
+                        "It serves dynamic content through JavaScript frameworks",
+                        "It is a database management system",
+                        "It is a highly customizable open-source web server",
+                        "It handles real-time communication between clients and servers"
+                    ],
+                    correct: 2,
+                    explanation: "Apache HTTP Server is a highly customizable, open-source web server used to serve static and dynamic content."
+                },
+                {
+                    question: "What is the purpose of Node.js in backend development?",
+                    options: [
+                        "To handle HTTP requests and server-side logic using JavaScript",
+                        "To manage frontend dependencies",
+                        "To serve static files to the browser",
+                        "To store and manage data in relational databases"
+                    ],
+                    correct: 0,
+                    explanation: "Node.js allows developers to use JavaScript for server-side logic, handling HTTP requests and building backend applications."
+                },
+                {
+                    question: "Which open-source tool is used to manage packages and dependencies in Node.js projects?",
+                    options: [
+                        "Webpack",
+                        "Nginx",
+                        "npm (Node Package Manager)",
+                        "Docker"
+                    ],
+                    correct: 2,
+                    explanation: "npm (Node Package Manager) is the default package manager for Node.js, used to manage dependencies and libraries in JavaScript projects."
+                },
+                {
+                    question: "What is the primary function of Docker in web development?",
+                    options: [
+                        "To handle server-side logic and API requests",
+                        "To create containerized environments for applications",
+                        "To serve static website content",
+                        "To optimize website images"
+                    ],
+                    correct: 1,
+                    explanation: "Docker allows developers to create containerized environments for applications, ensuring consistency across development, testing, and production."
+                },
+                {
+                    question: "Which of the following tools is used to bundle and optimize JavaScript code for production?",
+                    options: [
+                        "Node.js",
+                        "Webpack",
+                        "Apache",
+                        "Redis"
+                    ],
+                    correct: 1,
+                    explanation: "Webpack is a popular tool for bundling and optimizing JavaScript, CSS, and other assets for production environments."
+                },
+                {
+                    question: "What is the role of Redis in web development?",
+                    options: [
+                        "It is a relational database management system",
+                        "It is an in-memory data store used for caching and session management",
+                        "It is a web server",
+                        "It is a JavaScript framework"
+                    ],
+                    correct: 1,
+                    explanation: "Redis is an in-memory data store often used for caching, session management, and improving performance by reducing database load."
+                },
+                {
+                    question: "Which of the following open-source tools is commonly used to monitor web server performance?",
+                    options: [
+                        "Prometheus",
+                        "MongoDB",
+                        "Vue.js",
+                        "Express"
+                    ],
+                    correct: 0,
+                    explanation: "Prometheus is an open-source monitoring and alerting toolkit often used for tracking the performance of web servers and applications."
+                },
+                {
+                    question: "What is the role of the Express.js framework in Node.js applications?",
+                    options: [
+                        "To handle routing and middleware for building web applications",
+                        "To optimize website performance and load balancing",
+                        "To serve static files to the client",
+                        "To manage user authentication"
+                    ],
+                    correct: 0,
+                    explanation: "Express.js is a minimal web application framework for Node.js that handles routing and middleware, simplifying backend development."
+                },
+                {
+                    question: "What is the primary use of the open-source tool Nginx as a reverse proxy?",
+                    options: [
+                        "To serve JavaScript code to the client",
+                        "To distribute incoming traffic across multiple backend servers",
+                        "To manage server-side rendering of content",
+                        "To handle user authentication and authorization"
+                    ],
+                    correct: 1,
+                    explanation: "Nginx as a reverse proxy distributes incoming traffic across multiple backend servers, improving performance and scalability."
+                },
+                {
+                    question: "Which of the following JavaScript tools is used for task automation in web development?",
+                    options: [
+                        "Webpack",
+                        "Grunt",
+                        "MongoDB",
+                        "Vue.js"
+                    ],
+                    correct: 1,
+                    explanation: "Grunt is an open-source JavaScript task runner that automates repetitive tasks like minification, compilation, and testing in web development."
+                },
+                {
+                    question: "What is the purpose of Babel in JavaScript development?",
+                    options: [
+                        "To bundle and optimize JavaScript code for production",
+                        "To transpile modern JavaScript code into backward-compatible versions",
+                        "To handle database queries in JavaScript",
+                        "To optimize image files for faster loading"
+                    ],
+                    correct: 1,
+                    explanation: "Babel is a JavaScript compiler that transpiles modern JavaScript code into backward-compatible versions for older browsers."
+                },
+                {
+                    question: "What does the JavaScript library jQuery simplify in web development?",
+                    options: [
+                        "Managing server-side logic",
+                        "Writing database queries",
+                        "DOM manipulation and event handling",
+                        "Building web server applications"
+                    ],
+                    correct: 2,
+                    explanation: "jQuery simplifies DOM manipulation, event handling, and AJAX calls, making it easier to interact with HTML and CSS in web development."
+                },
+                {
+                    question: "Which JavaScript tool is used to manage the build process, bundling, and code splitting?",
+                    options: [
+                        "Gulp",
+                        "Webpack",
+                        "Node.js",
+                        "Express"
+                    ],
+                    correct: 1,
+                    explanation: "Webpack is a module bundler that helps manage the build process, including bundling, code splitting, and optimizing assets for production."
+                },
+                {
+                    question: "What is the primary purpose of the Node Package Manager (npm)?",
+                    options: [
+                        "To compile JavaScript code into machine code",
+                        "To manage dependencies and packages in JavaScript projects",
+                        "To handle server-side routing in Node.js",
+                        "To store user data in a database"
+                    ],
+                    correct: 1,
+                    explanation: "npm is the default package manager for Node.js, used to manage dependencies, libraries, and packages in JavaScript projects."
+                },
+                {
+                    question: "What does the tool Postman help developers with in web development?",
+                    options: [
+                        "Automating frontend build processes",
+                        "Testing APIs by sending requests and inspecting responses",
+                        "Minifying JavaScript code",
+                        "Managing version control in JavaScript projects"
+                    ],
+                    correct: 1,
+                    explanation: "Postman is a popular tool used for testing APIs, allowing developers to send requests, inspect responses, and manage API documentation."
+                },
+                {
+                    question: "Which of the following JavaScript libraries is used for building user interfaces in a declarative way?",
+                    options: [
+                        "React",
+                        "D3.js",
+                        "Express",
+                        "MongoDB"
+                    ],
+                    correct: 0,
+                    explanation: "React is a JavaScript library used for building user interfaces, allowing developers to build reusable UI components in a declarative way."
+                },
+                {
+                    question: "What is the primary use of the Vue CLI in web development?",
+                    options: [
+                        "To build and manage user interfaces in Vue.js applications",
+                        "To optimize JavaScript performance",
+                        "To create static websites",
+                        "To handle database migrations"
+                    ],
+                    correct: 0,
+                    explanation: "Vue CLI is a command-line interface used for setting up, developing, and managing Vue.js applications, including building and running development servers."
+                },
+                {
+                    question: "Which of the following tools is used for end-to-end testing of JavaScript applications?",
+                    options: [
+                        "Mocha",
+                        "Jest",
+                        "Cypress",
+                        "npm"
+                    ],
+                    correct: 2,
+                    explanation: "Cypress is an end-to-end testing tool that provides fast, reliable testing for web applications, including JavaScript-based applications."
+                },
+                {
+                    question: "What is the role of the Express.js framework in the Node.js ecosystem?",
+                    options: [
+                        "To handle server-side logic and HTTP requests",
+                        "To build static websites",
+                        "To manage database connections",
+                        "To optimize the front-end user interface"
+                    ],
+                    correct: 0,
+                    explanation: "Express.js is a minimal web application framework for Node.js that helps developers handle server-side logic, HTTP requests, and routing in backend development."
+                },
+                {
+                    question: "What is the purpose of using a Content Delivery Network (CDN)?",
+                    options: [
+                        "To reduce website loading time by serving content from geographically distributed servers",
+                        "To store user data securely in a central location",
+                        "To handle database queries for the website",
+                        "To optimize JavaScript code for production"
+                    ],
+                    correct: 0,
+                    explanation: "A CDN reduces website loading time by caching content on servers that are geographically closer to the user, improving performance."
+                },
+                {
+                    question: "What does SSL/TLS encryption do for a website?",
+                    options: [
+                        "It speeds up the website’s loading time",
+                        "It encrypts data between the client and the server to secure communication",
+                        "It optimizes images and static content",
+                        "It manages user authentication"
+                    ],
+                    correct: 1,
+                    explanation: "SSL/TLS encryption secures data transmitted between the client and server, ensuring that sensitive information like passwords and credit card numbers remain protected."
+                },
+                {
+                    question: "What is the main advantage of using cloud computing services like AWS or Azure?",
+                    options: [
+                        "It allows businesses to manage their data locally",
+                        "It provides scalable infrastructure with pay-as-you-go pricing",
+                        "It improves website design aesthetics",
+                        "It automates the process of writing backend code"
+                    ],
+                    correct: 1,
+                    explanation: "Cloud computing services like AWS or Azure offer scalable infrastructure and pay-as-you-go pricing, allowing businesses to expand or reduce resources based on demand."
+                },
+                {
+                    question: "Which of the following is an example of a Single Page Application (SPA)?",
+                    options: [
+                        "A static website that does not update its content",
+                        "A website that reloads every time the user navigates to a new page",
+                        "A web application that dynamically loads content without refreshing the page",
+                        "A website with multiple subdomains"
+                    ],
+                    correct: 2,
+                    explanation: "A Single Page Application (SPA) loads content dynamically without refreshing the entire page, offering a more seamless user experience."
+                },
+                {
+                    question: "What is the role of a Reverse Proxy in web architecture?",
+                    options: [
+                        "To forward requests to a backend server and return responses to the client",
+                        "To manage database queries for the server",
+                        "To create user interfaces for web applications",
+                        "To optimize image and video content for faster loading"
+                    ],
+                    correct: 0,
+                    explanation: "A reverse proxy forwards client requests to backend servers, improving security, load balancing, and performance by acting as an intermediary between clients and servers."
+                },
+                {
+                    question: "What is a major advantage of Progressive Web Apps (PWAs)?",
+                    options: [
+                        "They can only be accessed through desktop browsers",
+                        "They can be installed on a device like a native mobile app and work offline",
+                        "They require constant internet connectivity",
+                        "They rely on server-side rendering only"
+                    ],
+                    correct: 1,
+                    explanation: "Progressive Web Apps (PWAs) combine the best of web and mobile apps, allowing users to install them on their device and use them offline."
+                },
+                {
+                    question: "What does the term 'mobile-first design' mean in web development?",
+                    options: [
+                        "Designing a website first for mobile devices, then scaling up for desktop",
+                        "Building mobile apps before developing websites",
+                        "Creating separate websites for mobile and desktop",
+                        "Designing for desktop devices and then adapting for mobile"
+                    ],
+                    correct: 0,
+                    explanation: "Mobile-first design means creating a website with mobile users in mind first and then scaling the design up for larger screens like tablets and desktops."
+                },
+                {
+                    question: "What is the primary purpose of caching in web development?",
+                    options: [
+                        "To store frequently accessed data temporarily for faster retrieval",
+                        "To create secure passwords for user authentication",
+                        "To prevent unauthorized access to a website",
+                        "To manage user data in databases"
+                    ],
+                    correct: 0,
+                    explanation: "Caching stores frequently accessed data temporarily to reduce load times and improve website performance."
+                },
+                {
+                    question: "Which of the following best describes the concept of 'Responsive Web Design'?",
+                    options: [
+                        "Designing websites that adapt to different screen sizes and orientations",
+                        "Designing separate websites for mobile and desktop",
+                        "Designing websites that load faster on mobile devices",
+                        "Creating websites with only mobile features"
+                    ],
+                    correct: 0,
+                    explanation: "Responsive web design ensures that websites adapt to various screen sizes, providing a seamless experience on all devices, including desktops, tablets, and smartphones."
+                },
+                {
+                    question: "What is the purpose of an HTTP Status Code of 404?",
+                    options: [
+                        "The request was successful and the server is returning data",
+                        "The server could not find the requested resource",
+                        "The server is redirecting the client to another page",
+                        "The client is unauthorized to access the resource"
+                    ],
+                    correct: 1,
+                    explanation: "An HTTP 404 status code indicates that the server could not find the requested resource, commonly known as a 'Page Not Found' error."
+                },
+                {
+                    question: "What is the purpose of WebSockets in web development?",
+                    options: [
+                        "To provide real-time, bidirectional communication between the client and server",
+                        "To handle database queries",
+                        "To improve website loading times by caching assets",
+                        "To manage user authentication"
+                    ],
+                    correct: 0,
+                    explanation: "WebSockets provide a protocol for real-time, bidirectional communication between the client and server, often used in chat apps, live notifications, and multiplayer games."
+                },
+                {
+                    question: "What is the main advantage of using a microservices architecture in web development?",
+                    options: [
+                        "It allows applications to be built as a collection of loosely coupled, independently deployable services",
+                        "It simplifies database management",
+                        "It focuses on monolithic development patterns",
+                        "It enhances static file hosting"
+                    ],
+                    correct: 0,
+                    explanation: "Microservices architecture breaks down applications into smaller, independently deployable services, making them more scalable, maintainable, and resilient."
+                },
+                {
+                    question: "What does the term 'containerization' mean in the context of web development?",
+                    options: [
+                        "Bundling JavaScript files for deployment",
+                        "Packaging an application and its dependencies into a single unit for consistent deployment across environments",
+                        "Creating responsive web pages for different devices",
+                        "Storing user data in containers for security"
+                    ],
+                    correct: 1,
+                    explanation: "Containerization involves packaging an application and its dependencies into containers, ensuring that it runs consistently across different environments."
+                },
+                {
+                    question: "What is the purpose of the Open Web Application Security Project (OWASP)?",
+                    options: [
+                        "To create open-source web applications",
+                        "To provide resources and guidelines for improving web application security",
+                        "To develop backend frameworks for security",
+                        "To manage web hosting services"
+                    ],
+                    correct: 1,
+                    explanation: "OWASP is a nonprofit organization that provides open resources and guidelines for improving web application security, including the OWASP Top 10 security risks."
+                },
+                {
+                    question: "What is a CDN (Content Delivery Network) primarily used for?",
+                    options: [
+                        "To serve website content from geographically distributed servers for faster delivery",
+                        "To manage user authentication and authorization",
+                        "To store user data in a central database",
+                        "To provide security against SQL injection attacks"
+                    ],
+                    correct: 0,
+                    explanation: "A CDN caches website content on multiple servers located worldwide, improving content delivery speed by serving it from the closest server to the user."
+                },
+                {
+                    question: "What is the main role of API Gateway in microservices architecture?",
+                    options: [
+                        "To serve as a load balancer for microservices",
+                        "To provide a single entry point for client requests and manage communication between microservices",
+                        "To handle database queries for all services",
+                        "To optimize image files for faster load times"
+                    ],
+                    correct: 1,
+                    explanation: "An API Gateway acts as a single entry point for client requests, routing them to the appropriate microservices and managing tasks like load balancing, security, and authentication."
+                },
+                {
+                    question: "What is the role of a Content Management System (CMS) in website development?",
+                    options: [
+                        "To provide an easy way for users to manage and publish content without needing to write code",
+                        "To create backend APIs for database interaction",
+                        "To design user interfaces for web applications",
+                        "To optimize website performance"
+                    ],
+                    correct: 0,
+                    explanation: "A CMS allows users to manage and publish website content easily, without requiring coding knowledge, making it ideal for non-technical users."
+                },
+                {
+                    question: "What is the purpose of load balancing in web development?",
+                    options: [
+                        "To divide traffic across multiple servers to ensure no single server is overwhelmed",
+                        "To store session data for users",
+                        "To handle HTTP requests from the client",
+                        "To manage server-side routing in web applications"
+                    ],
+                    correct: 0,
+                    explanation: "Load balancing distributes incoming traffic across multiple servers, ensuring high availability, reliability, and preventing any server from becoming overloaded."
+                },
+                {
+                    question: "What is a key feature of serverless architecture?",
+                    options: [
+                        "It requires dedicated server management for each application",
+                        "It automatically scales resources based on demand without server management",
+                        "It stores data on-premises",
+                        "It uses a single server for all applications"
+                    ],
+                    correct: 1,
+                    explanation: "Serverless architecture allows developers to build and deploy applications without managing the underlying infrastructure, as the cloud provider handles scaling and resource management."
+                },
+                {
+                    question: "What is the role of an ORM (Object-Relational Mapping) tool in web development?",
+                    options: [
+                        "To map and manage database queries as objects in code, simplifying data manipulation",
+                        "To optimize frontend design for mobile devices",
+                        "To handle user authentication and authorization",
+                        "To manage server-side routing in web applications"
+                    ],
+                    correct: 0,
+                    explanation: "An ORM tool allows developers to interact with databases using object-oriented programming, mapping database tables to objects in code, making data manipulation easier."
+                },
+                
+                
+                
+                
+                
+                
+                
+                {
+                    question: "What is Render used for in web development?",
+                    options: [
+                        "To deploy and host web applications, static sites, and backend servers",
+                        "To manage and query relational databases",
+                        "To provide DDoS protection for websites",
+                        "To test websites for accessibility compliance"
+                    ],
+                    correct: 0,
+                    explanation: "Render is a platform for deploying and hosting web applications, static websites, and backend servers."
+                },
+                {
+                    question: "Which of the following tools would you use to create a server-side application?",
+                    options: [
+                        "Node.js",
+                        "Cloudflare",
+                        "Netlify",
+                        "SQL"
+                    ],
+                    correct: 0,
+                    explanation: "Node.js is used to create server-side applications using JavaScript."
+                },
+                {
+                    question: "What role does SQL play in dynamic websites?",
+                    options: [
+                        "It manages and retrieves data stored in relational databases",
+                        "It hosts static website files for deployment",
+                        "It optimizes the security of web servers",
+                        "It improves frontend user experience"
+                    ],
+                    correct: 0,
+                    explanation: "SQL is used to manage and retrieve data stored in relational databases for dynamic websites."
+                },
+                {
+                    question: "What is a key benefit of using Netlify for static websites?",
+                    options: [
+                        "It provides automated builds and deployment through continuous integration",
+                        "It manages server-side logic and databases",
+                        "It provides CDN caching for dynamic websites",
+                        "It enables writing backend code with JavaScript"
+                    ],
+                    correct: 0,
+                    explanation: "Netlify provides automated builds, deployment, and continuous integration for static websites."
+                },
+                {
+                    question: "How does Render simplify application deployment?",
+                    options: [
+                        "By providing server hosting with automatic builds and scaling",
+                        "By managing SQL database queries for applications",
+                        "By delivering static content through a global CDN",
+                        "By enabling frontend animations and styling"
+                    ],
+                    correct: 0,
+                    explanation: "Render simplifies deployment by offering server hosting, automatic builds, and scalable infrastructure for applications."
+                },
+
+                
+                
+
+                
+                
+                
+                
+                
+                
+                
+                {
                     question: "What is the purpose of the &lt;form&gt; tag?",
                     options: [
                         "To collect user input",
